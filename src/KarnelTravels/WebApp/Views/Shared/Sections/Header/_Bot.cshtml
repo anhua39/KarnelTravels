@@ -1,4 +1,7 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
     var actionName = ViewContext.RouteData.Values["action"] as string;
     var controllerName = ViewContext.RouteData.Values["controller"] as string;
 
@@ -29,21 +32,24 @@
             <div class=" collapse navbar-collapse" id="headNavbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-2 @GetActiveClass("Index", "Home")" asp-action="index" asp-controller="home">
+                        <a class="nav-link mx-2 @GetActiveClass("Index", "Home")" asp-action="index" asp-controller="home" asp-area="">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2 @GetActiveClass("Introduction", "Home")" asp-action="introduction" asp-controller="home">
+                        <a class="nav-link mx-2 @GetActiveClass("Introduction", "Home")" asp-action="introduction" asp-controller="home" asp-area="">
                             Introduction
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link mx-2 dropdown-toggle"
-                           href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           href="#" role="button"
+                           id="serveice"
+                           data-mdb-dropdown-init
+                           aria-expanded="false">
                             Karnel Travels Service
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="serveice">
                             <li>
                                 <a class="dropdown-item" href="#">
                                     Tourist Spots
@@ -75,6 +81,16 @@
                         <a class="nav-link mx-2" href="#">
                             Contact Us
                         </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle"
+                           href="#" role="button"
+                           id="clone"
+                           data-mdb-dropdown-init
+                           aria-expanded="false">
+                            Account
+                        </a>
+                        <partial name="Sections/_LoginPartial" />
                     </li>
                 </ul>
             </div>
