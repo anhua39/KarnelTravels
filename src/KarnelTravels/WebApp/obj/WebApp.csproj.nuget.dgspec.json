@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\nhote\\OneDrive\\Máy tính\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\nhote\\OneDrive\\Máy tính\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\nhote\\OneDrive\\Máy tính\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
+        "projectPath": "C:\\Users\\nhote\\OneDrive\\Máy tính\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\nhote\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\obj\\",
+        "outputPath": "C:\\Users\\nhote\\OneDrive\\Máy tính\\KarnelTravels\\src\\KarnelTravels\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nhote\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,9 +56,17 @@
               "target": "Package",
               "version": "[6.0.24, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.24, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
