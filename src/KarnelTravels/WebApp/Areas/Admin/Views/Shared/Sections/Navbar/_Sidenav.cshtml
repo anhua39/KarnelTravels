@@ -5,8 +5,8 @@
     string GetActiveClass(string currentAction, string currentController) =>
         actionName == currentAction && controllerName == currentController ? " active" : "";
 
-    string GetActiveOpenClass(string currentController) => 
-        controllerName == currentController ? " active" : "";
+    string GetActiveOpenClass(string currentController) =>
+        controllerName == currentController ? " active open" : "";
 }
 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
     <div class="app-brand demo">
@@ -64,42 +64,22 @@
     <div class="menu-inner-shadow"></div>
     <ul class="menu-inner py-1">
         <li class='menu-item@(GetActiveClass("Index", "Home"))'>
-            <a asp-action="Index" asp-controller="Home" asp-area="Admin" class="menu-link">
-                <i class="menu-icon fa-solid fa-house"></i>
-                Dashboard
+            <a asp-action="index" asp-controller="home" asp-area="admin" class="menu-link">
+                <i class="menu-icon fa-solid fa-house"></i>Dashboard
             </a>
         </li>
-
-        <li class="menu-item open" style="">
+        <li class="menu-header small text-uppercase">
+            <span class="menu-header-text">Management</span>
+        </li>
+        <li class='menu-item@(GetActiveOpenClass("Customer"))'>
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-layout"></i>
-                <div data-i18n="Layouts">Layouts</div>
+                <i class="menu-icon fa-solid fa-users"></i>Customers & Roles
             </a>
 
             <ul class="menu-sub">
-                <li class="menu-item">
-                    <a href="layouts-without-menu.html" class="menu-link">
-                        <div data-i18n="Without menu">Without menu</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="layouts-without-navbar.html" class="menu-link">
-                        <div data-i18n="Without navbar">Without navbar</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="layouts-container.html" class="menu-link">
-                        <div data-i18n="Container">Container</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="layouts-fluid.html" class="menu-link">
-                        <div data-i18n="Fluid">Fluid</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="layouts-blank.html" class="menu-link">
-                        <div data-i18n="Blank">Blank</div>
+                <li class='menu-item@(GetActiveClass("Index", "Customer"))'>
+                    <a asp-action="index" asp-controller="customer" asp-area="admin" class="menu-link">
+                        List
                     </a>
                 </li>
             </ul>
