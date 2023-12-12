@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\bests\\Documents\\GitHub\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\bests\\Documents\\GitHub\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\bests\\Documents\\GitHub\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\nhote\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Project\\KarnelTravels\\src\\KarnelTravels\\WebApp\\obj\\",
+        "projectPath": "C:\\Users\\bests\\Documents\\GitHub\\KarnelTravels\\src\\KarnelTravels\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\bests\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bests\\Documents\\GitHub\\KarnelTravels\\src\\KarnelTravels\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nhote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bests\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,9 +60,17 @@
               "target": "Package",
               "version": "[6.0.24, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.24, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -80,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

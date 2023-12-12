@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\HP\Desktop\eProject3\KarnelTravels-main\test\v3\
+build_property.ProjectDir = C:\Users\bests\Documents\GitHub\KarnelTravels\test\v3\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\eProject3\KarnelTravels-main\test\v3
+build_property.MSBuildProjectDirectory = C:\Users\bests\Documents\GitHub\KarnelTravels\test\v3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Home/Index.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Home/Introduction.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Home/Introduction.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRyb2R1Y3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Error.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/Header/_Bot.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/Header/_Bot.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXEhlYWRlclxfQm90LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/Header/_Navbar.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/Header/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXEhlYWRlclxfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/Header/_Top.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/Header/_Top.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXEhlYWRlclxfVG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/_BackToTop.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/_BackToTop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXF9CYWNrVG9Ub3AuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/_Footer.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/_Scripts.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/_Scripts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXF9TY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/Sections/_Styles.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/Sections/_Styles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlY3Rpb25zXF9TdHlsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/_Layout.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/_ViewImports.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/Desktop/eProject3/KarnelTravels-main/test/v3/Views/_ViewStart.cshtml]
+[C:/Users/bests/Documents/GitHub/KarnelTravels/test/v3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
