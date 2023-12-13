@@ -643,3 +643,4 @@ C:\Users\bests\Documents\GitHub\KarnelTravels\src\KarnelTravels\WebApp\obj\Debug
 C:\Users\bests\Documents\GitHub\KarnelTravels\src\KarnelTravels\WebApp\obj\Debug\net6.0\WebApp.pdb
 C:\Users\bests\Documents\GitHub\KarnelTravels\src\KarnelTravels\WebApp\obj\Debug\net6.0\WebApp.genruntimeconfig.cache
 C:\Users\bests\Documents\GitHub\KarnelTravels\src\KarnelTravels\WebApp\obj\Debug\net6.0\ref\WebApp.dll
+C:\Users\bests\Documents\GitHub\KarnelTravels\src\KarnelTravels\WebApp\obj\Debug\net6.0\WebApp.sourcelink.json
